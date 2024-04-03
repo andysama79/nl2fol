@@ -121,6 +121,7 @@ executable interpreter
     , base          ^>=4.17.2.1
     , bytestring
     , containers
+    , directory
     , filepath
     , QuickCheck
     , split

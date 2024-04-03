@@ -8,14 +8,12 @@ from parser.constructGrammar import text2json, text2tree
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--file", help="path to file", required=False)
-    parser.add_argument("-t", "--text", help="text to parse", required=False)
+    parser.add_argument("-f", "--file", help="path to file", required=True)
     parser.add_argument("-j", "--json", help="store json output to file", required=False, type=bool, default=False)
 
     args = parser.parse_args()
 
     path2file = args.file
-    text = args.text
 
     if not text and not path2file:
         print('Missing arguments! Either provide text or path to file!')
@@ -48,7 +46,7 @@ def main():
             json.dump(grammars, f, indent=4)
         print(f'Output grammar saved to {dumpfile}')
     
-    
+
 
 if __name__ == "__main__":
     main()

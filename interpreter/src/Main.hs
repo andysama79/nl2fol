@@ -16,10 +16,10 @@ main = do
   putStrLn  $ input record
   putStrLn ""
   let trees = output record
-  sequence_ $ map prettyPrint trees
+  mapM_ prettyPrint trees
   let props = map interpret trees
-  sequence_ $ map (putStrLn . show) props
-  let fp' = (takeDirectory fp) </> ("_" ++ takeFileName fp)
+  mapM_ print props
+  let fp' = takeDirectory fp </> ("_" ++ takeFileName fp)
   putStrLn $ "\nWriting back results to the file " ++ fp' ++ "..."
   write fp' Output{text=input record,
                   grammar=output record,
