@@ -1,0 +1,662 @@
+[
+  {
+    "text": "Every fish swims.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "swims",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Every man dies.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "man",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "dies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "All men are mortal.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "All",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NNS",
+                    "children": [
+                      {
+                        "node": "men",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBP",
+                    "children": [
+                      {
+                        "node": "are",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "ADJP",
+                    "children": [
+                      {
+                        "node": "JJ",
+                        "children": [
+                          {
+                            "node": "mortal",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nemo is a fish. Every fish swims.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNP",
+                    "children": [
+                      {
+                        "node": "Nemo",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "is",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "DT",
+                        "children": [
+                          {
+                            "node": "a",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "node": "NN",
+                        "children": [
+                          {
+                            "node": "fish",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "swims",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Socrates is a man.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNP",
+                    "children": [
+                      {
+                        "node": "Socrates",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "is",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "DT",
+                        "children": [
+                          {
+                            "node": "a",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "node": "NN",
+                        "children": [
+                          {
+                            "node": "man",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No fish walks.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "No",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "walks",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No man flies.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "No",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "man",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "flies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Men can swim.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNS",
+                    "children": [
+                      {
+                        "node": "Men",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "MD",
+                    "children": [
+                      {
+                        "node": "can",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "VP",
+                    "children": [
+                      {
+                        "node": "VB",
+                        "children": [
+                          {
+                            "node": "swim",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Men are not fish.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNS",
+                    "children": [
+                      {
+                        "node": "Men",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBP",
+                    "children": [
+                      {
+                        "node": "are",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "RB",
+                    "children": [
+                      {
+                        "node": "not",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "NNS",
+                        "children": [
+                          {
+                            "node": "fish",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Man and fish are best friends.",
+    "grammar": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "Man",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "CC",
+                    "children": [
+                      {
+                        "node": "and",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NNS",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBP",
+                    "children": [
+                      {
+                        "node": "are",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "JJS",
+                        "children": [
+                          {
+                            "node": "best",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "node": "NNS",
+                        "children": [
+                          {
+                            "node": "friends",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
