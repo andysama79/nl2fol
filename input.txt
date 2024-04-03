@@ -1,3 +1,9 @@
 Socrates is a man.
-Nemo is a fish.
-A fish swims.
+Every man walks. Every man dies.
+Nemo is a fish. Every fish swims.
+Nemo swims.
+No man flies.
+Every dog barks.
+No dog flies.
+Every cat sleeps.
+No fish walks.

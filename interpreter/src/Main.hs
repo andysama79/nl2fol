@@ -19,7 +19,6 @@ main = do
   let props = map interpret trees
   mapM_ print props
   let fp' = takeDirectory fp </> ("_" ++ takeFileName fp)
-  putStrLn $ "\nWriting back results to the file " ++ fp' ++ "..."
   write
     fp'
     Output

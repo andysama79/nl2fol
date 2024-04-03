@@ -1,3 +1,9 @@
 ∃x₀[(man(x₀) ∧ is(x₀,"Socrates"))]
-∃x₀[(fish(x₀) ∧ is(x₀,"Nemo"))]
-∃x₀[(fish(x₀) ∧ swims(x₀))]
+∀x₀[(man(x₀) → walks(x₀))] ∀x₀[(man(x₀) → dies(x₀))]
+∃x₀[(fish(x₀) ∧ is(x₀,"Nemo"))] ∀x₀[(fish(x₀) → swims(x₀))]
+swims("Nemo")
+∀x₀[(man(x₀) → ¬(flies(x₀)))]
+∀x₀[(dog(x₀) → barks(x₀))]
+∀x₀[(dog(x₀) → ¬(flies(x₀)))]
+∀x₀[(cat(x₀) → sleeps(x₀))]
+∀x₀[(fish(x₀) → ¬(walks(x₀)))]
