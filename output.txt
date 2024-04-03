@@ -1,0 +1,2 @@
+∃x₀[(man(x₀) ∧ is(x₀,"Socrates"))]
+∃x₀[(man(x₀) ∧ is(x₀,"Socrates"))]

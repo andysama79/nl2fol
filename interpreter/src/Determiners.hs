@@ -5,7 +5,7 @@ import Data.Map (Map)
 import qualified Data.Map as Map
 import qualified Prop as Logic
 
--- Just a little helper data type for pattern matching on quantifiers
+-- Pattern matching quantifiers
 data Quantifier
   = Exists -- Existential
   | ForAll -- Universal
@@ -18,7 +18,7 @@ instance Show Quantifier where
     ForAll -> "Universal"
     NegForAll -> "Negated universal"
 
--- A simple lexicon mapping determiners to quantifiers
+-- Map determiners to quantifiers
 determiners :: Map String Quantifier
 determiners = Map.fromList table
 

@@ -2,8 +2,8 @@ module S where
 
 import Grammar
 import GrammarTree
-import Prop
 import NP
+import Prop
 import Util
 import VP
 

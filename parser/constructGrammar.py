@@ -38,8 +38,8 @@ def text2json(text):
     # print(nltk.Tree.fromstring(str(trees[0])))
     # sys.exit(-1)
     return {
-            'text': text,
-            'grammar': [tree2dict(tree) for tree in trees]
+            'input': text, # text
+            'output': [tree2dict(tree) for tree in trees] # grammar tree
         }
 
 def main():

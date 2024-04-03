@@ -15,16 +15,13 @@ parse s =
         '(' -> parseConn $ init $ tail s'
         _ -> parsePred s'
 
--- Given a stringified proposition, remove all non-individual spacing
 removeSpaces :: String -> String
 removeSpaces s = s'''
   where
-    s' = markIndividualSpacing s -- Replace spaces in individuals
-    s'' = [c | c <- s', c /= ' '] -- Remove spaces
-    s''' = [if c == '_' then ' ' else c | c <- s''] -- Re-replace spaces
+    s' = markIndividualSpacing s
+    s'' = [c | c <- s', c /= ' ']
+    s''' = [if c == '_' then ' ' else c | c <- s'']
 
--- All spaces that are enclosed within quotation marks gets
--- replaced with underscores
 markIndividualSpacing :: String -> String
 markIndividualSpacing s = markIndividualSpacing' s False
   where

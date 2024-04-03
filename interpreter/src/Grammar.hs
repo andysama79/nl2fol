@@ -1,10 +1,5 @@
 module Grammar (Category (..), fromString, getAllCategories) where
 
--------------------------------------------------------------------------------
--- Define the grammatical categories
--------------------------------------------------------------------------------
-
--- Data type for grammatical constituents
 -- Based on Penn treebanks, see e.g. https://cs.nyu.edu/~grishman/jet/guide/PennPOS.html
 data Category
   = ROOT -- Root of the text
@@ -17,15 +12,10 @@ data Category
   | DT -- Determiner
   deriving (Show, Eq, Ord, Enum, Bounded)
 
--------------------------------------------------------------------------------
--- Some functions
--------------------------------------------------------------------------------
-
--- Function to derive all defined categories
 getAllCategories :: [Category]
 getAllCategories = enumFrom minBound
 
--- Translate from string to a label
+-- Translate String2Label
 fromString :: String -> Category
 fromString s
   | length l == 1 = head l

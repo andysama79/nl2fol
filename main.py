@@ -2,6 +2,8 @@ import os
 import sys
 # sys.path.append('parser/src')
 import json
+import shutil
+import subprocess as sbp
 
 import argparse
 from parser.constructGrammar import text2json, text2tree
@@ -14,14 +16,6 @@ def main():
     args = parser.parse_args()
 
     path2file = args.file
-
-    if not text and not path2file:
-        print('Missing arguments! Either provide text or path to file!')
-        sys.exit(-1)
-
-    if text:
-        print(text2tree(text))
-        sys.exit(0)
 
     if not path2file:
         print('Missing argument -f!')
@@ -46,7 +40,39 @@ def main():
             json.dump(grammars, f, indent=4)
         print(f'Output grammar saved to {dumpfile}')
     
+    outfile = 'output.txt' # logic
 
+    with open(outfile, 'w') as f:
+        f.write('') # clear file
 
+    if os.path.exists('temp'):
+        shutil.rmtree('temp')
+    os.makedirs('temp')
+
+    for i, grammar in enumerate(grammars):
+        path = 'temp/temp.json'
+        with open(path, 'w') as f:
+            json.dump(grammar, f, indent=4)
+        
+        # sbp.run(['./run.sh', path])
+        sbp.call(['./run.sh', path])
+
+        path = 'temp/_temp.json'
+        with open(path, 'r') as f:
+            data = json.load(f)
+            print(data)
+        
+        data = "Error"
+
+        with open(outfile, 'a') as f:
+            if data == "Error":
+                f.write('Error\n')
+            else:
+                f.write(' '.join(data['logic']) + '\n')
+
+    shutil.rmtree('temp')
+
+    print(f'Output logic saved to {outfile}')
+        
 if __name__ == "__main__":
     main()

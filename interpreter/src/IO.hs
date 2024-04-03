@@ -55,10 +55,6 @@ write fp record
 checkFilePath :: String -> Bool
 checkFilePath fp = isValid fp && ".json" `isSuffixOf` fp
 
-----------------------------------------------------
--- Data and functions for JSON
-----------------------------------------------------
-
 data ParseRecord = Parse {input :: String, output :: [GrammarTree]}
   deriving (Show, Generic)
 

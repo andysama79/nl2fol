@@ -1,10 +1,2 @@
-Every fish swims.
-Every man dies.
-All men are mortal.
-Nemo is a fish. Every fish swims.
 Socrates is a man.
-No fish walks.
-No man flies.
-Men can swim.
-Men are not fish.
-Man and fish are best friends.
+Chair is on the table.

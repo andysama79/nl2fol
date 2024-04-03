@@ -1,11 +1,11 @@
 module NP where
 
+import DT
 import Grammar
 import GrammarTree
-import Prop
-import DT
 import NN
 import NNP
+import Prop
 import Util
 
 -- Interpret a noun phrase as a higher-order proposition
