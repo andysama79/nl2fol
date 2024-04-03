@@ -1,2 +1,3 @@
 ∃x₀[(man(x₀) ∧ is(x₀,"Socrates"))]
-∃x₀[(man(x₀) ∧ is(x₀,"Socrates"))]
+∃x₀[(fish(x₀) ∧ is(x₀,"Nemo"))]
+∃x₀[(fish(x₀) ∧ swims(x₀))]

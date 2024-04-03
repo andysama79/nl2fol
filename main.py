@@ -49,6 +49,8 @@ def main():
         shutil.rmtree('temp')
     os.makedirs('temp')
 
+    previous = ''
+
     for i, grammar in enumerate(grammars):
         path = 'temp/temp.json'
         with open(path, 'w') as f:
@@ -60,15 +62,15 @@ def main():
         path = 'temp/_temp.json'
         with open(path, 'r') as f:
             data = json.load(f)
-            print(data)
-        
-        data = "Error"
+            # print(data)
 
         with open(outfile, 'a') as f:
-            if data == "Error":
-                f.write('Error\n')
+            if previous == data['logic']:
+                f.write('Cannot Parse\n')
             else:
                 f.write(' '.join(data['logic']) + '\n')
+        
+        previous = data['logic']
 
     shutil.rmtree('temp')
 

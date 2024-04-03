@@ -1,2 +1,3 @@
 Socrates is a man.
-Chair is on the table.
+Nemo is a fish.
+A fish swims.
