@@ -1,0 +1,583 @@
+[
+  {
+    "input": "Socrates is a man.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNP",
+                    "children": [
+                      {
+                        "node": "Socrates",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "is",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "DT",
+                        "children": [
+                          {
+                            "node": "a",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "node": "NN",
+                        "children": [
+                          {
+                            "node": "man",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Every man walks. Every man dies.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "man",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "walks",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "man",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "dies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Nemo is a fish. Every fish swims.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNP",
+                    "children": [
+                      {
+                        "node": "Nemo",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "is",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NP",
+                    "children": [
+                      {
+                        "node": "DT",
+                        "children": [
+                          {
+                            "node": "a",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "node": "NN",
+                        "children": [
+                          {
+                            "node": "fish",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "swims",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Nemo swims.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "NNP",
+                    "children": [
+                      {
+                        "node": "Nemo",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "swims",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "No man flies.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "No",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "man",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "flies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Every dog barks.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "dog",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "barks",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "No dog flies.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "No",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "dog",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "flies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "Every cat sleeps.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "Every",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "cat",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "sleeps",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "input": "No fish walks.",
+    "output": [
+      {
+        "node": "ROOT",
+        "children": [
+          {
+            "node": "S",
+            "children": [
+              {
+                "node": "NP",
+                "children": [
+                  {
+                    "node": "DT",
+                    "children": [
+                      {
+                        "node": "No",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "node": "NN",
+                    "children": [
+                      {
+                        "node": "fish",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "node": "VP",
+                "children": [
+                  {
+                    "node": "VBZ",
+                    "children": [
+                      {
+                        "node": "walks",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
