@@ -22,7 +22,8 @@ main = do
   write
     fp'
     Output
-      { text = input record,
+      { 
+        text = input record,
         grammar = output record,
         logic = map show props
       }
